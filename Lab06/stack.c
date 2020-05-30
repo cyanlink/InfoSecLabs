@@ -3,7 +3,7 @@
 void func(int a, int b, int c){
     char buffer[8];
     int *r;
-    r= (int *)(buffer + 10);
+    r= (int *)(buffer + 24);
     (*r) += 7;
 }
 
